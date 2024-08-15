@@ -13,7 +13,7 @@ namespace mi360
 {
     class Mi360Application : ApplicationContext
     {
-        private static string XiaomiGamepadHardwareFilter = @"VID&00022717_PID&3144";
+        private static string XiaomiGamepadHardwareFilter = @"VID&00022717_PID&5068";
 
         private ILogger _Logger = Log.ForContext<Mi360Application>();
 
